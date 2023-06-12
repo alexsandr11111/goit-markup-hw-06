@@ -732,15 +732,17 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 
 }
+.modal-form-conteiner{
+  margin-bottom: 8px;
+}
+
 .modal-form{
   display: flex;
   flex-direction: column;
  
 
 }
-.modal-form-lable{
-  margin-bottom: 8px;
-}
+
 .modal-input-contenier{
   display: block;
   position: relative;
@@ -768,11 +770,11 @@ color: #2E2F42;
   left: 16px;
   transform: translateY(-50%);
 }
-.modal-form-input-desc{
+.modal-form-lable{
   display: block;
 margin-bottom: 4px;
 font-size: 12px;
-line-height: 1.1;
+line-height: 1.17;
 letter-spacing: 0.04em;
 
 color: var(--color-light-slate);
