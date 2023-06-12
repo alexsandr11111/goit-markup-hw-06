@@ -755,6 +755,8 @@ color: #2E2F42;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   outline: transparent;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 .modal-input-contenier:focus-within input{
@@ -769,6 +771,7 @@ color: #2E2F42;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .modal-form-lable{
   display: block;
@@ -779,10 +782,13 @@ letter-spacing: 0.04em;
 
 color: var(--color-light-slate);
 }
+.modal-form-comment-conteiner{
+  margin-bottom: 16px;
+}
 .modal-commentar{
   padding-top: 8px;
   padding-left: 16px;
-  margin-bottom: 16px;
+  
   width: 100%;
   height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.4);

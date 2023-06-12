@@ -474,7 +474,8 @@
              <div class="modal-input-contenier">
                 <input
                   type="text"
-                  name="user_name"
+                  id="user-name"
+                  name="user-name"
                   required
                   pattern="^[a-zA-Zа-яА-Я]+$"
                   minlength="2"
@@ -487,11 +488,12 @@
             
           </div>
           <div class="modal-form-conteiner">
-            <label class="modal-form-lable">Phone</label>
+            <label for="user-tell" class="modal-form-lable">Phone</label>
               <div class="modal-input-contenier">
                 <input
                   type="tel"
-                  name="user_phone"
+                  id="user-tell"
+                  name="user-tell"
                   required
                   pattern="[0-9]{10}"
                   minlength="10"
@@ -505,10 +507,11 @@
             
           </div>
           <div class="modal-form-conteiner">
-            <label class="modal-form-lable">Email</label>
+            <label for="user-email" class="modal-form-lable">Email</label>
               <div class="modal-input-contenier">
                 <input
                   type="email"
+                  id="user-email"
                   name="user_email"
                   required
                   class="modal-form-input"
@@ -519,8 +522,8 @@
               </div>
             
           </div>
-            <div class="modal-form-conteiner">
-            <label class="modal-form-comment">Comment</label>
+            <div class="modal-form-comment-conteiner">
+            <label for="user-comment" class="modal-form-lable">Comment</label>
             <div>
               <textarea
                 name="user_comment"
