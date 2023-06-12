@@ -805,6 +805,7 @@ letter-spacing: 0.04em;
 color: #8E8F99;
 }
 .modal-form-chec-desc span{
+  padding: 0;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
